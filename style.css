@@ -3,11 +3,20 @@
     padding: 0;
 }
 
-
 body {
     overflow-x: hidden;
 }
 
+/*----------Header-----------*/
+.header-container {
+    height: 69vh;
+    width: 100vw;
+    background-image: url("./img/header/coffe-background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/*----------Contacts-----------*/
 .contacts-container {
     width: 100vw;
     height: 63.5vh;
@@ -79,6 +88,7 @@ body {
     justify-content: space-between;
 }
 
+/*----------News-----------*/
 .news-container {
     width: 100vw;
     height: 100vh;
