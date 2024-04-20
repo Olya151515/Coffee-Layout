@@ -53,7 +53,8 @@ body {
 }
 
 .header-container div {
-    margin: 120px 0 0 145px;
+    padding-top: 15vh;
+    padding-left: 7vw;
 }
 
 .header-container div .text1 {
@@ -79,12 +80,10 @@ body {
 
 .header-container div button {
     border-color: transparent;
-    display: inline-flex;
     padding: 16px 35px;
-    align-items: flex-start;
-    gap: 10px;
     border-radius: 5px;
     background: #FF4B32;
+    width: 200px;
 
     color: #FFF;
     font-family: "Open Sans", serif;
@@ -92,7 +91,6 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 160%;
-    margin-bottom: 100px;
 }
 /*-----------------offer-container--------------*/
 .offer-container{
