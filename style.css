@@ -49,7 +49,7 @@ body {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 130%; /* 31.2px */
+    line-height: 130%;
 }
 
 .header-container div {
@@ -94,7 +94,7 @@ body {
     line-height: 160%;
     margin-bottom: 100px;
 }
-/*-----------------------offer-container--------------*/
+/*-----------------offer-container--------------*/
 .offer-container{
     display: flex;
     flex-direction: column;
@@ -113,7 +113,7 @@ body {
 }
 .mainH1>h1{
     color: #000;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     font-size: 43px;
     font-style: normal;
     font-weight: 600;
@@ -123,7 +123,7 @@ body {
 }
 .mainH1>p{
     color: #000;
-    font-family: "Open Sans";
+    font-family: "Open Sans", serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -150,7 +150,7 @@ body {
 }
 .textGallery>div>h2{
     color: #000;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     font-size: 37px;
     font-style: normal;
     font-weight: 600;
@@ -160,7 +160,7 @@ body {
 .textGallery>div>p{
     color: #000;
     text-align: center;
-    font-family: "Open Sans";
+    font-family: "Open Sans", serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -181,7 +181,7 @@ body {
     flex-direction: column;
 }
 .price{
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -196,7 +196,7 @@ body {
     margin-bottom: 10px;
 }
 .nameBeans{
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -205,7 +205,7 @@ body {
 }
 .descriptionBeans{
     color: #000;
-    font-family: "Open Sans";
+    font-family: "Open Sans", serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -234,7 +234,7 @@ body {
     flex-direction: column;
     margin: 18px;
 }
-/*------------------------gallery-container----------------------*/
+/*-----------------gallery-container----------------------*/
 .gallery-container{
     display: flex;
     justify-content: center;
@@ -264,7 +264,7 @@ body {
 .textLoad>span{
     color: #FF4B32;
     text-align: center;
-    font-family: "Open Sans";
+    font-family: "Open Sans", serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -283,7 +283,7 @@ body {
 .contacts-container {
     width: 100vw;
     height: 63.5vh;
-    background-image: url(/img/contacts/FollowUs1.png);
+    background-image: url("/img/contacts/FollowUs1.png");
     background-size: cover;
     color: #FFF;
     display: flex;
@@ -308,7 +308,7 @@ body {
     text-align: center;
     font-size: 24px;
     font-weight: 600;
-    line-height: 150%; /* 36px */
+    line-height: 150%;
 }
 
 .contacts-container-info>h2{
@@ -317,7 +317,7 @@ body {
     font-family: "Josefin Sans", sans-serif;
     font-size: 43px;
     font-weight: 600;
-    line-height: 130%; /* 55.9px */
+    line-height: 130%;
     margin: 6vh 0;
 }
 
@@ -332,7 +332,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-weight: 400;
-    line-height: 150%; /* 36px */
+    line-height: 150%;
     margin-left: 15px;
 }
 
@@ -376,7 +376,7 @@ body {
     font-family: "Josefin Sans", sans-serif;
     font-size: 43px;
     font-weight: 600;
-    line-height: 130%; /* 55.9px */
+    line-height: 130%;
 }
 
 .news-container-info>p{
@@ -386,11 +386,10 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 160%; /* 28.8px */
+    line-height: 160%;
     margin: 2vh 0 5.8vh 0;
 
 }
-
 
 .news-container-cards{
     height: 52vh;
@@ -431,7 +430,7 @@ body {
     font-family: "Josefin Sans", sans-serif;
     font-size: 32px;
     font-weight: 600;
-    line-height: 130%; /* 41.6px */
+    line-height: 130%;
 }
 
 .news-container-cards>section>article>p {
@@ -439,7 +438,7 @@ body {
     font-family: "Open Sans",sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 160%; /* 25.6px */
+    line-height: 160%;
 }
 
 .news-container-cards>section>article>a{
@@ -448,5 +447,5 @@ body {
     font-family: "Open Sans",sans-serif;
     font-size: 16px;
     font-weight: 600;
-    line-height: 160%; /* 25.6px */
+    line-height: 160%;
 }
