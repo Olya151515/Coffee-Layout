@@ -9,11 +9,90 @@ body {
 
 /*----------Header-----------*/
 .header-container {
-    height: 69vh;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
     background-image: url("./img/header/coffe-background.png");
+    background-repeat:no-repeat;
     background-size: cover;
-    background-position: center;
+}
+
+.header-container nav {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.header-container nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-right: 40px;
+}
+
+.header-container nav a img {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-right: -30px;
+}
+
+.header-container nav .active-link {
+    color: #FF4B32;
+    font-family: "Josefin Sans", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+}
+
+.header-container div {
+    margin: 120px 0 0 145px;
+}
+
+.header-container div .text1 {
+    color: #FFF;
+    font-family: "Josefin Sans", serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 26px;
+}
+
+.header-container div .text2 {
+    color: #FFF;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.8;
+    margin-bottom: 48px;
+}
+
+.header-container div button {
+    border-color: transparent;
+    display: inline-flex;
+    padding: 16px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: #FF4B32;
+
+    color: #FFF;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    margin-bottom: 100px;
 }
 
 /*----------Contacts-----------*/
