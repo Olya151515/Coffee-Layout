@@ -447,3 +447,115 @@ body {
     font-weight: 600;
     line-height: 160%;
 }
+
+/*----------Footer-----------*/
+.footer-container {
+    height: auto;
+    width: 100%;
+    background-image: url("./img/footer/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    margin-top: 5vh;
+}
+
+.footer-container div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-right: 5vw;
+    text-align: left;
+}
+
+.footer-container div div:nth-child(1) .span1 {
+    display: flex;
+    align-items: center;
+    color: #FF4B32;
+    font-family: "Josefin Sans", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.footer-container div div:nth-child(1) .span1 img {
+    width: 46.109px;
+    height: 50px;
+    margin-right: 1vh;
+}
+
+.footer-container div div:nth-child(1) p {
+    color: #FFF;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    margin-bottom: 3vh;
+    text-align: left;
+}
+
+.footer-container div div:nth-child(1) .span2 {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer-container div div:nth-child(1) .span2 img {
+    width: 18px;
+    height: 18px;
+    margin-right: 1vh;
+}
+
+.footer-container div div:nth-child(2) h1,
+.footer-container div div:nth-child(3) h1,
+.footer-container div div:nth-child(4) h1{
+    color: #FFF;
+    font-family: "Open Sans", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer-container div div:nth-child(2) p,
+.footer-container div div:nth-child(3) p {
+    color: #FFF;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top: 1vh;
+}
+
+.footer-container div div:nth-child(4) img {
+    margin-top: 5vh;
+}
+
+.footer-container p {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
