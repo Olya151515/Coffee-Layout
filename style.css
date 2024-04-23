@@ -11,6 +11,7 @@ body {
 .header-container {
     height: 71vh;
     width: 100%;
+
     background-image: url("./img/header/coffe-background.png");
     /*background-repeat:no-repeat;*/
     background-size: cover;
